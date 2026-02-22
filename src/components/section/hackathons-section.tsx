@@ -3,6 +3,13 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
+import type { ReactNode } from "react";
+
+type HackathonLink = {
+  href: string;
+  title: string;
+  icon: ReactNode;
+};
 
 export default function HackathonsSection() {
   return (
@@ -33,7 +40,9 @@ export default function HackathonsSection() {
                   <img
                     src={hackathon.image}
                     alt={hackathon.title}
-                    className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border object-contain flex-none"
+                    className={`bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border object-contain flex-none ${
+                      hackathon.title === "Nasa Space Apps Challenge" ? "size-14" : "size-10"
+                    }`}
                   />
                 ) : (
                   <div className="size-10 bg-card z-10 shrink-0 overflow-hidden p-1 border rounded-full shadow ring-2 ring-border flex-none" />
@@ -56,7 +65,7 @@ export default function HackathonsSection() {
                 )}
                 {hackathon.links && hackathon.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
-                    {hackathon.links.map((link, idx) => (
+                    {(hackathon.links as HackathonLink[]).map((link, idx) => (
                       <Link
                         href={link.href}
                         key={idx}
