@@ -3,13 +3,6 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
 import { Timeline, TimelineItem, TimelineConnectItem } from "@/components/timeline";
-import type { ReactNode } from "react";
-
-type HackathonLink = {
-  href: string;
-  title: string;
-  icon: ReactNode;
-};
 
 export default function HackathonsSection() {
   return (
@@ -65,7 +58,7 @@ export default function HackathonsSection() {
                 )}
                 {hackathon.links && hackathon.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
-                    {(hackathon.links as HackathonLink[]).map((link, idx) => (
+                    {hackathon.links.map((link, idx) => (
                       <Link
                         href={link.href}
                         key={idx}

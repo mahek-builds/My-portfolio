@@ -11,8 +11,9 @@ import { Docker } from "@/components/ui/svgs/docker";
 import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
 import { Csharp } from "@/components/ui/svgs/csharp";
+import type { ResumeData } from "@/data/types";
 
-export const DATA = {
+export const DATA: ResumeData = {
   name: "Mahek Bhatia",
   initials: "MB",
   url: "https://mahekbhatia.com",
@@ -227,4 +228,4 @@ export const DATA = {
     },
 
   ],
-} as const;
+};

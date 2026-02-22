@@ -42,6 +42,14 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
 
+# Deploy on Netlify
+
+- Connect this repository to Netlify.
+- If your Netlify site is pointed at the parent folder, set **Base directory** to `My-portfolio`.
+- Build command: `npm run build`
+- Publish directory: leave empty for Next.js SSR/runtime handling.
+- Node version is pinned through `netlify.toml` (`NODE_VERSION = 20`).
+
 # License
 
 Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
