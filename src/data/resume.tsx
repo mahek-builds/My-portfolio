@@ -16,12 +16,12 @@ import type { ResumeData } from "@/data/types";
 export const DATA: ResumeData = {
   name: "Mahek Bhatia",
   initials: "MB",
-  url: "https://mahekbhatia.com",
+  url: "https://media-del3-2.cdn.whatsapp.net/v/t61.24694-24/607444735_838435485758945_5180423317120162655_n.jpg?ccb=11-4&oh=01_Q5Aa4QGVwJurpUZ-DHpK3RR8DOLzw6w9HiZB3ISnm5zPv8rlJQ&oe=69EE016F&_nc_sid=5e03e0&_nc_cat=104",
   location: "delhi, india",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
   "B.Tech IT Student | An Aspiring AI Engineer | AWS Certified",
-  avatarUrl: "https://media-del3-2.cdn.whatsapp.net/v/t61.24694-24/607444735_838435485758945_5180423317120162655_n.jpg?ccb=11-4&oh=01_Q5Aa3wGhG5BBVV_ZN5hdrYWqi0V41ezQrjx4wK5wRFzgaoD1uw&oe=69A6D06F&_nc_sid=5e03e0&_nc_cat=104",
+  avatarUrl: "https://media-del3-2.cdn.whatsapp.net/v/t61.24694-24/607444735_838435485758945_5180423317120162655_n.jpg?ccb=11-4&oh=01_Q5Aa4QGVwJurpUZ-DHpK3RR8DOLzw6w9HiZB3ISnm5zPv8rlJQ&oe=69EE016F&_nc_sid=5e03e0&_nc_cat=104",
   summary:
     
   "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning,GenAI and building real-world intelligent systems."
