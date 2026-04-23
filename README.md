@@ -1,55 +1,106 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Hi, I'm Mahek Bhatia
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+[![Profile Views](https://komarev.com/ghpvc/?username=mahek-builds&color=0e75b6&style=flat-square&label=PROFILE+VIEWS)](https://github.com/mahek-builds)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/contactmahekbhatia/)
+[![GitHub](https://img.shields.io/badge/GitHub-mahek--builds-181717?style=flat-square&logo=github)](https://github.com/mahek-builds)
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+B.Tech (Information Technology) student at KIET (2024-2028), AWS certified, and focused on building AI-powered products with strong backend engineering and practical deployment workflows.
 
-# Features
+## Professional Summary
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+- Aspiring AI Engineer with hands-on experience in ML, Deep Learning, NLP, and GenAI applications.
+- Strong foundation in Data Structures and Algorithms with C++ and Python.
+- Builds end-to-end projects from model experimentation to API deployment.
+- Comfortable across fast prototyping and production-minded architecture.
 
-# Getting Started Locally
+## Core Skills
 
-1. Clone this repository to your local machine:
+### Languages
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+- Python
+- C++
+- JavaScript
+- TypeScript
 
-2. Move to the cloned directory
+### AI/ML
 
-   ```bash
-   cd portfolio
-   ```
+- NumPy, Pandas, Matplotlib, Seaborn
+- Scikit-learn, TensorFlow, Keras, PyTorch
+- NLP pipelines and transformer-based workflows
+- EDA, feature engineering, model benchmarking
 
-3. Install dependencies:
+### Backend and Platform
 
-   ```bash
-   pnpm install
-   ```
+- FastAPI, Flask, Uvicorn
+- Docker, Git, GitHub
+- PostgreSQL, Firebase
+- Streamlit, React
 
-4. Start the local Server:
+### Cloud and Certifications
 
-   ```bash
-   pnpm dev
-   ```
+- AWS Certified AI Practitioner (2025)
+- AWS Certified Cloud Practitioner (2025)
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+## Featured Projects
 
-# Deploy on Netlify
+### PaperSense
 
-- Connect this repository to Netlify.
-- If your Netlify site is pointed at the parent folder, set **Base directory** to `My-portfolio`.
-- Build command: `npm run build`
-- Publish directory: leave empty for Next.js SSR/runtime handling.
-- Node version is pinned through `netlify.toml` (`NODE_VERSION = 20`).
+AI customer support assistant using GPT-based workflows and FastAPI backend.
 
-# License
+- Stack: OpenAI API, FastAPI, LangChain, Firebase, PyTorch, Docker, React
+- Link: https://github.com/mahek-builds/PaperSense
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+### ESG Intelligence Platform
+
+Real-time and explainable ESG scoring platform powered by multi-agent AI architecture.
+
+- Stack: Python, SpaCy, BERT, FastAPI, n8n, Uvicorn, Hugging Face, React, Streamlit
+- Link: https://github.com/mahek-builds/ESG-Intelligence-Platform
+
+### AI-4-Alzheimers
+
+Medical image classification system for early Alzheimer support and screening.
+
+- Stack: TensorFlow, CNN, FastAPI, SQLite, Python
+- Link: https://github.com/mahek-builds/AI-4-Alzheimers
+
+### Customer Churn Prediction
+
+Machine learning application to predict customer churn and support business retention decisions.
+
+- Stack: Scikit-learn, Pandas, EDA, Random Forest, Streamlit, Docker, Hugging Face Spaces
+- Link: https://github.com/mahek-builds/Customer-churn-prediction-
+
+## Engineering Workflow
+
+I follow a product-focused, company-style execution workflow:
+
+1. Problem framing and KPI definition.
+2. Data collection, quality checks, and preprocessing.
+3. Baseline model development and fast iteration.
+4. Comparative evaluation and error analysis.
+5. API integration with FastAPI/Flask.
+6. Containerization and deployment readiness.
+7. Monitoring, documentation, and continuous improvement.
+
+## Current Focus
+
+- Advanced DSA and system-level problem solving.
+- Model optimization, inference efficiency, and deployment patterns.
+- Building AI + full-stack products for real-world use cases.
+
+## Hackathon and Collaboration
+
+- HackAvenis 2026 Finalist (5th position) for ESG Intelligence Platform.
+- NASA Space Apps Challenge participant (ExoLumin project concept).
+- Open to internships, research collaboration, and impactful AI projects.
+
+## Connect
+
+- LinkedIn: https://www.linkedin.com/in/contactmahekbhatia/
+- GitHub: https://github.com/mahek-builds
+- Email: mehakbhatia015@gmail.com
+
+---
+
+Open to Internship and Real-World Projects: B.Tech IT student focused on AI, ML, and full-stack execution.
