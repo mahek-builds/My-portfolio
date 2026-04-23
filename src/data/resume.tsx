@@ -16,12 +16,12 @@ import type { ResumeData } from "@/data/types";
 export const DATA: ResumeData = {
   name: "Mahek Bhatia",
   initials: "MB",
-  url: "https://media.licdn.com/dms/image/v2/D4E03AQH5T65vdbGIQQ/profile-displayphoto-scale_400_400/B4EZfiR0XJG4Ak-/0/1751848013244?e=1778716800&v=beta&t=8hQyvnEJGjjTyN222taRrYn9jkuqrQgYyKFtSFmVQzg",
+  url: "https://avatars.githubusercontent.com/u/192207322?s=400&u=8b4838bfcdd9aaa9860c6450e35a0bf7266a7f14&v=4",
   location: "delhi, india",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
   "B.Tech IT Student | An Aspiring AI Engineer | AWS Certified",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQH5T65vdbGIQQ/profile-displayphoto-scale_400_400/B4EZfiR0XJG4Ak-/0/1751848013244?e=1778716800&v=beta&t=8hQyvnEJGjjTyN222taRrYn9jkuqrQgYyKFtSFmVQzg",
+  avatarUrl: "https://avatars.githubusercontent.com/u/192207322?s=400&u=8b4838bfcdd9aaa9860c6450e35a0bf7266a7f14&v=4",
   summary:
     
   "I am a B.Tech Information Technology student at KIET Group of Institutions (2024–2028) passionate about Artificial Intelligence, Machine Learning,GenAI and building real-world intelligent systems."
