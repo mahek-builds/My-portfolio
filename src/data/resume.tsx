@@ -49,11 +49,11 @@ export const DATA: ResumeData = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1PhvUUikb44AVRnk0vserid1sXURssKm0/view?usp=sharing", icon: NotebookIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1BQX0kRPF7X2zPH8RSMz133pR0mtap-nd/view?usp=sharing", icon: NotebookIcon, label: "Resume" },
     { href: "https://codolio.com/profile/MahekBhatia", icon: "https://images.sftcdn.net/images/t_app-icon-m/p/6b211da4-a749-455a-bff4-af07dfb22b1c/161517429/codolio-logo", label: "Codolio" },
   ],
   contact: {
-    email: "mehakbhatia015@gmail.com",
+    email: "bhatiaindu28@gmail.com",
     tel: "+918630406464",
     social: {
       GitHub: {
