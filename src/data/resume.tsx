@@ -49,7 +49,7 @@ export const DATA: ResumeData = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://drive.google.com/file/d/1BQX0kRPF7X2zPH8RSMz133pR0mtap-nd/view?usp=sharing", icon: NotebookIcon, label: "Resume" },
+    { href: "https://drive.google.com/file/d/1uQUnuJufOMh_iRoCY-mD5WDrpGSRmk0w/view?usp=sharing", icon: NotebookIcon, label: "Resume" },
     { href: "https://codolio.com/profile/MahekBhatia", icon: "https://images.sftcdn.net/images/t_app-icon-m/p/6b211da4-a749-455a-bff4-af07dfb22b1c/161517429/codolio-logo", label: "Codolio" },
   ],
   contact: {
@@ -107,7 +107,21 @@ export const DATA: ResumeData = {
       logoUrl: "https://gadget.co.za/wp-content/uploads/2020/12/aws-logo-scaled.jpg",
     },
   ],
-  projects: [
+  projects: [{
+      title: "Synapse--the learning platform",
+      href: "https://github.com/mahek-builds/Synapse--The-Learning-Platform",
+      backgroundImage:
+        "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1600&auto=format&fit=crop",
+      active: true,
+      description:
+        "Developed a learning platform that provides personalized learning experiences to students using AI and ML algorithms. The platform uses natural language processing and machine learning techniques to analyze student data and provide personalized recommendations for learning resources.",
+      technologies: [
+        "React",
+        "Node.js","cohere API","postgresql","docker","python","fastapi","langgraph","render"]
+          
+
+  },
+
     {
       title: "PaperSense",
       href: "https://github.com/mahek-builds/PaperSense",
