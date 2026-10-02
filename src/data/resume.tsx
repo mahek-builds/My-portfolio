@@ -32,6 +32,7 @@ export const DATA: ResumeData = {
     { name: "Typescript", icon: Typescript },
     { name: "Python", icon: Python },
     { name: "OpenAI", icon: Icons.openai },
+    { name: "Groq", icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/groq-icon.png" },
     { name: "Hugging Face", icon: Icons.huggingFace },
     { name: "LangChain", icon: Icons.langchain },
     { name: "LangGraph", icon: Icons.langgraph },
@@ -49,7 +50,6 @@ export const DATA: ResumeData = {
     { name: "Postgresql", icon: Postgresql },
     { name: "Docker", icon: Docker },
     { name: "Git", icon: Icons.github },
-    { name: "Hugging Face", icon: "https://seeklogo.com/images/H/hugging-face-icon-logo-48117F3DCE-seeklogo.com.png" },
     { name: "C++", icon: Csharp },
   ],
   navbar: [
@@ -112,20 +112,26 @@ export const DATA: ResumeData = {
       logoUrl: "https://gadget.co.za/wp-content/uploads/2020/12/aws-logo-scaled.jpg",
     },
   ],
-  projects: [{
-      title: "Synapse--the learning platform",
-      href: "https://github.com/mahek-builds/Synapse--The-Learning-Platform",
+  projects: [
+    {
+      title: "LexAgent",
+      href: "https://github.com/mahek-builds/Legal-Research-AI",
       backgroundImage:
-        "https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1600&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=1600&auto=format&fit=crop",
       active: true,
       description:
-        "Developed a learning platform that provides personalized learning experiences to students using AI and ML algorithms. The platform uses natural language processing and machine learning techniques to analyze student data and provide personalized recommendations for learning resources.",
+        "An agentic, RAG-powered legal research system with dual-source retrieval, structured reasoning, and session memory. It evaluates research needs dynamically, merging internal document evidence with authoritative web sources.",
       technologies: [
         "React",
-        "Node.js","cohere API","postgresql","docker","python","fastapi","langgraph","render"]
-          
-
-  },
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Groq",
+        "Supabase",
+        "Qdrant",
+        "Tavily"
+      ]
+    },
 
     {
       title: "PaperSense",
@@ -136,7 +142,6 @@ export const DATA: ResumeData = {
       description:
         "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
       technologies: [
-        "OPENAI API",
         "FastAPI",
         
         "Langchain",
